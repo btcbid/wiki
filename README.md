@@ -1,2 +1,2 @@
 # wiki
-pinpod.io doc
+pinpod.io docs
