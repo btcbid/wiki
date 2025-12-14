@@ -10,7 +10,7 @@ Welcome to the pinpod.io docs! 📌
 
 ## About This Repository
 
-Repository ini adalah dokumentasi lengkap yang di-host di GitHub Pages dan dapat diakses melalui:
+This repository is a complete documentation hosted on GitHub Pages and can be accessed via:
 https://btcbid.github.io/wiki/
 
 ---
