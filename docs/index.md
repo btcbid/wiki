@@ -15,4 +15,4 @@ https://btcbid.github.io/wiki/
 
 ---
 
-© 2021-2025 *Last Updated: December 2025*
+©2021-2025 PinPod, *Last Updated: December 2025*
