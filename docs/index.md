@@ -1,4 +1,4 @@
-#  📜 Bill of Materials
+#  📜
 
 Welcome to the pinpod.io docs! 📌
 
