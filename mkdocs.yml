@@ -1,0 +1,81 @@
+site_name: Wiki
+site_url: https://btcbid.github.io/wiki/
+repo_url: https://github.com/btcbid/wiki
+repo_name: btcbid/wiki
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: light blue
+      toggle: 
+        icon: material/brightness-7
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - exclude:
+      glob:
+        - venv_*
+        - .git
+        - node_modules
+        - "*.pyc"
+        - __pycache__
+        - agents/*
+        - embeddings/*
+        - long_term/*
+        - short_term/*
+        - memory/*
+        - profnote/
+        - recycle_bin/
+        - gemini-scribe/
+        - "*.json"
+        - "*.canvas"
+        - publish/
+        - site/
+
+markdown_extensions:
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+# Ai
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/btcbid
+
+nav:
+  - Home: "index.md"
+  - PinPod:
+    - Overview: "[en] pp.md"
+    - Global Vision: "PinPod Global Vision and Community Impact.md"
+    - Project Summary: "PinPod Project Summary.md"
+  - About: "about.md"
